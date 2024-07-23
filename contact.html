@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.6/cropper.css" />
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-sm bg-dark">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <span class="badge bg-secondary text-warning fs-3 mb-5">Sena Solution</span>
+
+                <ul class="navbar-nav ms-auto mt-3 mb-3 ">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./portofolio.html">PORTOFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./about_us.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light active text-light bg-warning text-dark" href="./contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./todos.html">TODOS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Below Header -->
+    <div class="container-fluid">
+        <div class="image-container">
+            <img src="./20240127_075027.jpg" alt="Image" style="width: 300px; height: 200px; object-fit: cover;"
+                class="img-fluidd-block w-100">
+            <span class="bg-dark text-warning btn-upper ps-4 pe-4 fs-2">Contact</span>
+        </div>
+    </div>
+    <div class="container-fluid mt-4">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2571496383434!2d106.81585091164489!3d-6.229790693732302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f158843078e3%3A0xce64d3c98a332ab0!2sThe%20Telkom%20Hub!5e0!3m2!1sen!2sid!4v1721696391648!5m2!1sen!2sid"
+            width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="container">
+                <div class="container mt-5">
+                    <span class="bg-dark text-warning ps-4 pe-4 fs-2">Contact</span>
+                    <form class="me-4">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Subject</label>
+                            <textarea class="form-control" id="message" placeholder="Subject"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark text-warning">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-5 ">
+            <span class="bg-dark text-warning ps-4 pe-4 fs-2">Contact Information</span>
+    
+                <div class="row mb-2 mt-5">
+                    <div class="col-md-1 mx-auto my-auto"><i class="fas fa-map-marker fa-2x ms-4"></i>
+                    </div>
+                    <div class="col-md-10 mx-auto my-auto"><span class="">123 Main St, Anytown, USA</span></div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-md-1 mx-auto my-auto"><i class="fas fa-phone fa-2x  ms-4"></i>
+                    </div>
+                    <div class="col-md-10 mx-auto my-auto"><span class="">+628111111111</span></div>
+                </div>
+    
+                <div class="row mb-2">
+                    <div class="col-md-1 mx-auto my-auto"><i class="fas fa-envelope-open fa-2x  ms-4"></i>
+                    </div>
+                    <div class="col-md-10 mx-auto my-auto"><span class="">email@domain.com</span></div>
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- About Us Section -->
+
+    <div class="container-fluid row bg-secondary mt-5">
+        <div class="col-sm-4">
+            <div class="fs-5 text-light m-4">
+                About Us
+            </div>
+            <div class="text-light ms-4 me-4 mt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra bibendum vestibulum. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia, ex sed varius suscipit, eros nulla
+                ullamcorper lacus
+            </div>
+            <span class="badge bg-warning fs-6 text-warning bg-dark m-4">Learn More</span>
+
+
+            <div class="fs-5 text-light mb-4 ms-4">
+                Photo Stream
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <img src="./20240127_075027.jpg" class="img-fluid" alt="Photo 1">
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <img src="./20240127_082826.jpg" class="img-fluid" alt="Photo 2">
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <img src="./20240127_082848.jpg" class="img-fluid" alt="Photo 3">
+                    </div>
+                    <!-- Add more columns as needed -->
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-4">
+            <div class="fs-5 text-light m-4">
+                Our Latest News
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-1 mx-auto my-auto"><i class="far fa-newspaper fa-2x text-light ms-4 text-center"></i>
+                </div>
+                <div class="col-md-10 mx-auto my-auto"><span class="text-light">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Aliquam viverra bibendum vestibulum. Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia, </span></div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-1 mx-auto my-auto"><i class="far fa-newspaper fa-2x text-light ms-4 text-center"></i>
+                </div>
+                <div class="col-md-10 mx-auto my-auto"><span class="text-light">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Aliquam viverra bibendum vestibulum. Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia, </span></div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-1 mx-auto my-auto"><i class="far fa-newspaper fa-2x text-light ms-4 text-center"></i>
+                </div>
+                <div class="col-md-10 mx-auto my-auto"><span class="text-light">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Aliquam viverra bibendum vestibulum. Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia, </span></div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-1 mx-auto my-auto"><i class="far fa-newspaper fa-2x text-light ms-4 text-center"></i>
+                </div>
+                <div class="col-md-10 mx-auto my-auto"><span class="text-light">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Aliquam viverra bibendum vestibulum. Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia, </span></div>
+            </div>
+
+            <div class="fs-5 text-light m-4">
+                <h5>Follow us on social media</h5>
+                <div>
+                    <a href="#" class="btn btn-outline-light btn-floating m-1" role="button"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-floating m-1" role="button"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-floating m-1" role="button"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-floating m-1" role="button"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="fs-5 text-light m-4">
+                Contact Information
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-md-1 mx-auto my-auto"><i class="fas fa-map-marker fa-2x text-light ms-4"></i>
+                </div>
+                <div class="col-md-10 mx-auto my-auto"><span class="text-light">123 Main St, Anytown, USA</span></div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-1 mx-auto my-auto"><i class="fas fa-phone fa-2x text-light ms-4"></i>
+                </div>
+                <div class="col-md-10 mx-auto my-auto"><span class="text-light">+628111111111</span></div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-md-1 mx-auto my-auto"><i class="fas fa-envelope-open fa-2x text-light ms-4"></i>
+                </div>
+                <div class="col-md-10 mx-auto my-auto"><span class="text-light">email@domain.com</span></div>
+            </div>
+            <hr class="text-light">
+        </div>
+
+    </div>
+
+    <!-- End of About Us Section -->
+
+    <!-- Footer -->
+
+    <nav class="navbar navbar-expand-sm bg-dark">
+        <div class="container-fluid text-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <p class="fs-6">©2020HACKTIV8 WORKSHOP PROGRAM SRI AKBARISENA</p>
+
+                <ul class="navbar-nav ms-auto mt-3 mb-3 text-light">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./portofolio.html">PORTOFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./about_us.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light active text-light bg-warning text-dark" href="./contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./todos.html">TODOS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End of Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./script/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.6/cropper.js"></script>
+</body>
+
+</html>

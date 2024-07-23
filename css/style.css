@@ -1,0 +1,43 @@
+.separate-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.separate-line::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    border-top: 1px solid;
+}
+
+.separate-line span {
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px; /* Increase the font size */
+    padding: 15px; /* Increase the padding */
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.image-container .btn-upper {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
